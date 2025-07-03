@@ -33,39 +33,39 @@ As a **Business Intelligence Analyst**, I was tasked with analyzing order data f
 
 ### 1. 🏆 **Which product category had the highest sales?**
 Using SQL aggregation, `Technology` was found to have the **highest sales revenue** across all categories.
+<img src="./Highest Sales Product.png" alt="Highest Sales Product" width="600">
 
 > 💡 _Technology accounted for the largest share of total sales, driven by high-priced products like phones, machines, and computers._
 
 ### 2. 🌍 **What are the Top 3 and Bottom 3 regions in terms of sales?**
+**Top 3**
 
-**Top 3 Regions**:
-- **Ontario**
-- **Quebec**
-- **British Columbia**
+<img src="./Top 3.png" alt="Top 3" width="600">
 
-**Bottom 3 Regions**:
-- **Yukon**
-- **Nunavut**
-- **Northwest Territories**
+**Bottom 3**
+
+<img src="./Bottom 3.png" alt="Bottom 3" width="600">
 
 > 🔎 _The top regions are densely populated urban markets with a strong business presence, while the bottom regions are sparsely populated._
 
 ### 3. 📦 **What were the total sales of appliances in Ontario?**
 
-Using a filtered sum, total sales of **Appliances** in **Ontario** were approximately **₦46,302.84**.
+<img src="./Total Sales Of Appliances In Ontario.png" alt="Total Sales Of Appliances In Ontario" width="600">
 
 ### 4. 📉 **Advise KMS on increasing revenue from the bottom 10 customers**
 
-Analysis of customer spending revealed low engagement from the bottom 10 customers.
-
-**Recommendation**:
-- Implement **targeted marketing campaigns**
-- Offer **first-purchase discounts** or **bundle deals**
-- Introduce **loyalty programs** to improve retention
+- Based on the results from this analysis , i recommend that the management of KMS should: 
+  Give targeted discounts or cashback for repeat purchases.
+- Offer product bundles or kits to increase order size.
+- Provide free delivery for orders above a certain amount.
+- Send personalized emails with promotions on products they previously browsed.
+- Call or survey them to understand their needs better and improve satisfaction.
 
 ### 5. 🚚 **Which shipping method incurred the most cost for KMS?**
 
 The shipping method with the **highest total shipping cost** was **Delivery Truck**.
+
+<img src="./Most Shipping Cost.png" alt="Most Shipping Cost" width="600">
 
 > 📌 _Despite being the most economical per delivery, the volume of orders made Delivery Truck the most expensive overall._
 
@@ -75,36 +75,24 @@ The shipping method with the **highest total shipping cost** was **Delivery Truc
 
 ### 6. 💰 **Who are the most valuable customers and what do they purchase?**
 
-Top customers based on total profit include:
-- **Sean Miller** (Technology)
-- **Barry French** (Office Supplies)
-- **Carlos Soltero** (Appliances & Storage)
+<img src="./Most Valuable Customers.png" alt="Most Valuable Customers" width="600">
 
 > 🧾 _Valuable customers tend to purchase high-margin technology and office equipment._
 
 ### 7. 🏪 **Which small business customer had the highest sales?**
 
-The top small business customer was **Muhammed MacIntyre**, with significant purchases in storage and technology.
+<img src="./Highest Sales Small Business Customer.png" alt="Highest Sales Small Business Customer" width="600">
 
 ### 8. 🏢 **Which Corporate Customer placed the most orders (2009–2012)?**
 
-**Clay Rozendal** (Corporate segment) placed the **most number of orders** in the 4-year period.
+<img src="./Corporate Customer Highest Order.png" alt="Corporate Customer Highest Order" width="600">
 
 ### 9. 🧮 **Which Consumer customer was the most profitable?**
 
-**Barry French** generated the **highest profit** in the Consumer segment.
+<img src="./Profitable Consumer Customer.png" alt="Profitable Consumer Customer" width="600">
 
-### 10. 🔄 **Which customers returned items, and what segment do they belong to?**
 
-By joining `Order_Status` with `KMS Sql Case Study`, we identified:
-- **Returned Orders** were mostly by **Consumers**
-- Top returners include:  
-  - **Lela Stein** (Consumer)  
-  - **Carlos Soltero** (Consumer)
-
-> ❗ _Most returns came from the Consumer segment, suggesting a need for quality assurance or better product descriptions._
-
-### 11. ⚖️ **Was shipping cost appropriately aligned with Order Priority?**
+### 10. ⚖️ **Was shipping cost appropriately aligned with Order Priority?**
 
 📌 **Observation**:
 - High-priority orders (Critical, High) often used **Express Air** (most expensive)
@@ -130,8 +118,7 @@ Yes, KMS **appropriately spent shipping costs** in alignment with **Order Priori
 ## 🛠️ Tools & Technologies Used
 
 - **SQL Server** for querying and aggregating data  
-- **Excel** for pivot analysis and filtering  
-- **Python (pandas)** for data prep and joining datasets  
+- **Excel** for pivot analysis and filtering   
 - **GitHub** for project documentation
 
 ---
