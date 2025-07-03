@@ -125,14 +125,14 @@ Yes, KMS **appropriately spent shipping costs** in alignment with **Order Priori
 
 ## 📁 File Structure
 
-```bash
-📦 KMS-SQL-Project/
-├── 📄 [README.md](./README.md)
-├── 📊 [KMS Sql Case Study.csv](./KMS%20Sql%20Case%20Study.csv)
-├── 🔁 [Order_Status.csv](./Order_Status.csv)
+
+📦 KMS-SQL-Project/  
+├── 📄 [README.md](./README.md)  
+├── 📊 [KMS Sql Case Study.csv](./KMS%20Sql%20Case%20Study.csv)  
+├── 🔁 [Order_Status.csv](./Order_Status.csv)  
 └── 📁 [KMSQuery.sql](./KMSQuery.sql)
 
-```
+
 
 ---
 
