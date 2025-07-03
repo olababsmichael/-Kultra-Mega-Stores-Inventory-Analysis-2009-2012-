@@ -127,10 +127,11 @@ Yes, KMS **appropriately spent shipping costs** in alignment with **Order Priori
 
 ```bash
 📦 KMS-SQL-Project/
-├── 📄 README.md  ← (This file)
-├── 📊 KMS Sql Case Study.csv
-├── 🔁 Order_Status.csv
-└── 📁 SQL Queries (optional)
+├── 📄 [README.md](./README.md)
+├── 📊 [KMS Sql Case Study.csv](./KMS%20Sql%20Case%20Study.csv)
+├── 🔁 [Order_Status.csv](./Order_Status.csv)
+└── 📁 [KMSQuery.sql](./KMSQuery.sql)
+
 ```
 
 ---
