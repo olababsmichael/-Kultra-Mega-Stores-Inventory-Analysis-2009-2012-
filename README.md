@@ -31,11 +31,11 @@ As a **Business Intelligence Analyst**, I was tasked with analyzing order data f
 
 ##  Case Scenario I: Sales & Shipping Performance
 
-### 1. 🏆 **Which product category had the highest sales?**
+### 1.  **Which product category had the highest sales?**
 Using SQL aggregation, `Technology` was found to have the **highest sales revenue** across all categories.
 <img src="./Highest Sales Product.png" alt="Highest Sales Product" width="600">
 
-> 💡 _Technology accounted for the largest share of total sales, driven by high-priced products like phones, machines, and computers._
+>  _Technology accounted for the largest share of total sales, driven by high-priced products like phones, machines, and computers._
 
 ### 2.  **What are the Top 3 and Bottom 3 regions in terms of sales?**
 **Top 3**
@@ -73,7 +73,7 @@ The shipping method with the **highest total shipping cost** was **Delivery Truc
 
 ##  Case Scenario II: Customer Insights
 
-### 6. 💰 **Who are the most valuable customers and what do they purchase?**
+### 6.  **Who are the most valuable customers and what do they purchase?**
 
 <img src="./Most Valuable Customers.png" alt="Most Valuable Customers" width="600">
 
@@ -136,9 +136,11 @@ Yes, KMS **appropriately spent shipping costs** in alignment with **Order Priori
 
 ---
 
-## 🙌 Final Note
+##  Final Note
 
 This project demonstrates how SQL can be used to drive **business decisions** by transforming raw order data into **clear insights** for management.  
-Ideal for **analyst portfolios**, **BI roles**, and **data-driven storytelling**.
 
+ *Authored by:* **Olababs The Analyst**  
+ *Date:* June 2025  
+ 
 ---
