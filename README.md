@@ -24,8 +24,8 @@ As a **Business Intelligence Analyst**, I was tasked with analyzing order data f
 
 ##  Data Sources
 
-1. `KMS Sql Case Study.csv` – Order data with details like product, sales, profit, customer, and shipping
-2. `Order_Status.csv` – Information on returned orders
+1. [KMSQuery.sql](./KMSQuery.sql) – Order data with details like product, sales, profit, customer, and shipping  
+2. [Order_Status.csv](./Order_Status.csv) – Information on returned orders
 
 ---
 
